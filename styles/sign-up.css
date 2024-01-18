@@ -1,0 +1,91 @@
+.form-box {
+  height: 87%;
+}
+
+.container form svg {
+  position: absolute;
+  color: var(--button-color);
+  z-index: 3;
+  left: 16px;
+}
+
+.container .form-box form svg.fa-user {
+  top: 10px;
+}
+
+.container .form-box form svg.fa-user.ntwo {
+  top: 65px;
+}
+
+.container .form-box form svg.fa-envelope {
+  top: 120px;
+}
+
+.container .form-box form svg.fa-lock {
+  top: 175px;
+}
+
+.container .form-box form svg.fa-lock.ptwo {
+  top: 229px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  background: #ffffff;
+  color: var(--main-color);
+  position: fixed;
+  top: 73%;
+  left: 6%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+#message h3 {
+  color: var(--button-color);
+}
+
+#message p {
+  padding: 5px 15px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -15px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid,
+#spanPwd2 {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -15px;
+  content: "✖";
+}
+
+
+#spanPwd2 {
+  display: none;
+  position: absolute;
+  bottom: 24%;
+  right: 4%;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 750px) {
+  .sign-container {
+    width: 98%;
+    height: 80%;
+  }
+}

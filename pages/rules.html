@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rules Page</title>
+    <link rel="stylesheet" href="../styles/sign-in.css" />
+<link rel="stylesheet" href="../styles/rules.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-box Rules">
+        <div class="logo">
+          <img src="../images/quiz-logo.webp" alt="quiz" />
+        </div>
+        <br>
+        <h2>Some <span> Rules </span> of this Quiz</h2>
+        <div class="context">
+          <ol>
+            <li>You will have only <span> 30</span> minutes.</li>
+            <li>
+              You can mark any question and add it to <span> mark list</span>.
+            </li>
+            <li>
+              <span>Next</span> button go to next question,
+              <span>previous</span> button go 
+              previous question.
+            </li>
+            <li>If time out you <span> can't </span>submit your answer.</li>
+            <li>You will get your grades if you submit before time out.</li>
+          </ol>
+        </div>
+        <br /><br />
+
+        <input class="input" type="submit" value="Start Quiz" />
+      </div>
+    </div>
+    <script src="../scripts/jquery-3.7.1.min.js"></script>
+    <script>
+     $(".input").click(function(){
+        location.replace("exam.html")
+     })
+    </script>
+  </body>
+</html>

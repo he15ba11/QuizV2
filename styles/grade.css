@@ -1,0 +1,55 @@
+p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+span {
+    color: #ee163b;
+}
+
+ol li {
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #ffffff;
+
+}
+
+.Rules {
+    background-color: rgb(4 64 66 / 69%);
+    height: 67%;
+}
+
+.container  input[type="button"] {
+color: white;
+font-size: 25px;
+background-color: var(--button-color);
+padding: 10px 45px;
+width: fit-content;
+cursor: pointer;
+box-shadow: 3px 1px 5px #ffffffa3;
+}
+
+.container input[type="button"]:hover {
+background-color: rgb(51, 115, 119);
+border: 1px solid white;
+}
+.grade
+{
+font-size: 100px;
+
+}
+p
+{
+font-size: 50px;
+}
+span
+{
+color:#8dc53e;
+}
+.container
+{
+z-index: 1;
+}

@@ -1,0 +1,37 @@
+
+h2 {
+    font-size: 30px ;
+    text-align: center;
+    color: #ffffff;
+
+  }
+  span {
+    color: #ee163b;
+    font-weight: bold;
+  }
+
+  ol li {
+    margin-left: 110px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .context {
+    max-width: 410px;
+  }
+
+  .Rules {
+    background-color: rgb(4 64 66 / 69%);
+    height:77% ;
+  }
+  .input {
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(42 114 118);
+    position: absolute;
+    bottom: 7%;
+    left: 28%;
+  }
+  .input:hover {
+    background-color: #137c08 !important;
+  }

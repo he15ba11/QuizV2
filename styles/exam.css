@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --markColor: #e54f1fdb;
+    --ansColor: #225053;
+}
+
+#ex {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/pngtree-contrasting.jpg");
+}
+
+#ex::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #00000017;
+}
+
+.progress {
+    height: 10px;
+    background-color: #ddd;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: green;
+    transition: width 1s ease-in-out;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#worng {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    width: 65px;
+    right: 21%;
+    top: 2%;
+}
+
+#worng img {
+    width: 100%;
+}
+
+.exam {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+}
+
+h2 {
+    width: 90%;
+    margin: auto;
+    font-size: 35px;
+    background-color: #d1cbcb83;
+    color: #0f2527;
+    bottom: 1px solid;
+    padding: 20px 0;
+    border: 1px solid var(--ansColor);
+    border-radius: 10px;
+}
+
+ul#ans {
+    width: 50%;
+    margin: 20px auto;
+    list-style-type: none;
+}
+
+ul#ans li {
+    background-color: var(--ansColor);
+    padding: 25px;
+    border: 1px solid white;
+    position: relative;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.938);
+    border-radius: 15px 7px;
+}
+
+ul#ans li:hover,
+.mark .markList li:hover{
+    background-color: #548184;
+}
+
+input {
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.buttons {
+    margin: auto;
+    width: 59%;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    color: white;
+    background-color: #3b7f6c;
+}
+
+.buttons button:hover {
+    background-color: #55a58f;
+}
+
+.buttons button:last-child {
+    margin-left: 187px;
+    background-color: #fc7434f2;
+}
+
+.buttons button:last-child:hover {
+    background-color: #ef6e21;
+}
+
+.pageNum {
+    border: 1px solid var(--ansColor);
+    padding: 7px 10px;
+    font-weight: bold;
+    color: white !important;
+    background-color: var(--ansColor);
+    border-radius: 5px;
+}
+
+.mark {
+    /* background-color: var(--markColor); */
+    background-color: #fc7434f2;
+    position: relative;
+}
+
+.mark .markList {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    list-style-type: none;
+    width: 90%;
+}
+
+.mark .markList li {
+    border: 1px solid white;
+    background-color: var(--ansColor);
+    color: white;
+    padding: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    border-radius: 15px 7px;
+}
+
+.mark .markList li span {
+    color: red;
+    font-weight: bold;
+}
+
+.submit {
+    direction: rtl;
+}
+
+.submit button {
+    width: 20%;
+    display: block;
+    background-color: rgb(13, 80, 13);
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.submit button:hover {
+    background-color: green
+}
+
+.ShowBtn {
+    visibility: hidden;
+}

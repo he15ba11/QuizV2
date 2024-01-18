@@ -1,0 +1,99 @@
+
+[
+  {
+    "question": "HTML stands for -",
+    "answers": {
+      "HighText Machine Language": false,
+      "HyperText and links Markup Language": false,
+      "HyperText Markup Language": true,
+      "None of these": false
+    }
+  },
+  {
+    "question": "The correct sequence of HTML tags for starting a webpage is -",
+    "answers": {
+      "Head, Title, HTML, body": false,
+      "HTML, Head, Title, Body": true,
+      "HTML, Head, p, Body": false,
+      "HTML, Body, Title, Body": false
+    }
+  },
+  {
+    "question": "How can we change the text color of an element?",
+    "answers": {
+      "background-color":false,
+      "color":true,
+      "Both A and B":false,
+      "None of these":false
+    }
+  },
+  {
+    "question": "In how many ways can CSS be written in?",
+    "answers": {
+      " 1 ":false,
+      " 2 ":false,
+      " 3 ":true,
+      " 4 ":false
+    }
+  },
+  {
+    "question": " CSS stands for -",
+    "answers": {
+      "Cascading style sheets":true,
+      "Cascade style sheets":false,
+      "Color and style sheets":false,
+      "None of these":false
+    }
+  }
+  ,
+  {
+    "question": "The <hr> tag in HTML is used for -",
+    "answers": {
+      "new line":false,
+      "vertical ruler":false,
+      "new paragraph":false,
+      "horizontal ruler":true
+    }
+  }
+  ,
+  {
+    "question": "Which of the following attribute is used to provide a unique name to an element?",
+    "answers": {
+      "class":false,
+      "id":true,
+      "type":false,
+      "None of the above":false
+    }
+  }
+  ,
+  {
+    "question": "What are the types of unordered or bulleted list in HTML?",
+    "answers": {
+      "disc, square, triangle":false,
+      "polygon, triangle, circle":false,
+      "disc, circle, square":true,
+      "All of the above":false
+    }
+  }
+  ,
+  {
+    "question": "In which part of the HTML metadata is contained?",
+    "answers": {
+      "head tag":true,
+      "title tag":false,
+      "html tag":false,
+      "body tag":false
+    }
+  }
+  ,
+  {
+    "question": "In HTML, which attribute is used to create a link that opens in a new window tab?",
+    "answers": {
+      "src=”_blank”":false,
+      "alt=”_blank”":false,
+      "target=”_self”":false,
+      "target=”_blank”":true
+    }
+  }
+  
+]

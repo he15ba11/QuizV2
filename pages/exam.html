@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Page</title>
+    <!-- <link rel="stylesheet" href="../styles/sign-in.css"> -->
+    <link rel="stylesheet" href="../styles/exam.css">
+</head>
+
+<body>
+    <div  id="ex">
+        <table>
+        <tr>
+            <td colspan="2" class="progress"> <div class="progress-fill" id="progressFill"></div></td>
+        </tr>
+        <tr>
+            <div id="worng"><img src="../images/worng.png" alt=""></div>
+            <td class="exam">
+                <h2 id="ques"></h2> 
+                <ul id="ans">
+                </ul>
+                <div class="buttons">
+                    <button id="prevButton">❮ Previous</button>
+                    <span class="pageNum" style="color:#7f7b99">1</span>
+                    <button id="nextButton">Next ❯</button>
+                    <button id="mark">Mark</button>
+                </div>
+            </td>
+            <td class="mark">
+                <ul class="markList">
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="submit " id="submitButton"> <button>Submit</button> </td>
+        </tr>
+    </table>
+    </div>
+    
+    <script src="../scripts/jquery-3.7.1.min.js"></script>
+    <script type="module" src="../scripts/exam.js"></script>
+    
+</body>
+
+</html>
